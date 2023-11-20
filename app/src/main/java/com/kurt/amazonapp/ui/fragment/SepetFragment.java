@@ -43,11 +43,8 @@ public class SepetFragment extends Fragment {
         urunSepetArrayList.add(f6);
 
         UrunSepetAdapter urunSepetAdapter = new UrunSepetAdapter(urunSepetArrayList,requireContext());
-
+        binding.button3.setText("Alışverişi Tamamla ("+urunSepetArrayList.size()+" ürün)");
         binding.sepetRecyclerView.setAdapter(urunSepetAdapter);
-
-
-
 
 
         return binding.getRoot();

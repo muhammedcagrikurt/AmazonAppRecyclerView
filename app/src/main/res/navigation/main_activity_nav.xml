@@ -10,4 +10,9 @@
         android:name="com.kurt.amazonapp.ui.fragment.AnasayfaFragment"
         android:label="fragment_anasayfa"
         tools:layout="@layout/fragment_anasayfa" />
+    <fragment
+        android:id="@+id/sepetFragment"
+        android:name="com.kurt.amazonapp.ui.fragment.SepetFragment"
+        android:label="fragment_sepet"
+        tools:layout="@layout/fragment_sepet" />
 </navigation>
