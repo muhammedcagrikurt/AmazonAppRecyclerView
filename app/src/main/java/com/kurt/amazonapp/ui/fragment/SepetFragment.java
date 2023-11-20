@@ -29,18 +29,12 @@ public class SepetFragment extends Fragment {
         binding.sepetRecyclerView.setLayoutManager(new LinearLayoutManager(requireContext()));
 
         ArrayList<UrunSepet> urunSepetArrayList = new ArrayList<>();
-        UrunSepet f1 = new UrunSepet(1,"Django","32","django"); //dosya ismi yeterli uzantıya gerek yok
-        UrunSepet f2 = new UrunSepet(2,"Interstellar","32","interstellar");
-        UrunSepet f3 = new UrunSepet(3,"Inception","16","inception");
-        UrunSepet f4 = new UrunSepet(4,"The Hateful Eight","28","thehatefuleight");
-        UrunSepet f5 = new UrunSepet(5,"The Pianist","18","thepianist");
-        UrunSepet f6 = new UrunSepet(6,"Anadoluda","10","anadoluda");
+        UrunSepet f1 = new UrunSepet(1,"Bitmemiş Öyküler Kağıt Kapak – 3 Mart 2020","210 ₺","jrr");
+        UrunSepet f2 = new UrunSepet(2,"Akıllı Yatırımcı: Warren Buffett’ın önsözü ve sonsözüyle  - Jason Zweig’in güncel yorumlarıyla zenginleştirilmiş yeni baskı Kağıt Kapak – 3 Mart 2020","182,81 ₺","akilliyatirimci");
+        UrunSepet f3 = new UrunSepet(3,"Tutunamayanlar: Bütün Eserleri - 1 Kağıt Kapak – Tıpkı basım, 1 Temmuz 2016","180 ₺","oguzatay");
         urunSepetArrayList.add(f1);
         urunSepetArrayList.add(f2);
         urunSepetArrayList.add(f3);
-        urunSepetArrayList.add(f4);
-        urunSepetArrayList.add(f5);
-        urunSepetArrayList.add(f6);
 
         UrunSepetAdapter urunSepetAdapter = new UrunSepetAdapter(urunSepetArrayList,requireContext());
         binding.button3.setText("Alışverişi Tamamla ("+urunSepetArrayList.size()+" ürün)");

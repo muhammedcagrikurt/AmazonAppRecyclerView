@@ -32,7 +32,7 @@ public class AnasayfaFragment extends Fragment {
         ArrayList<CardResim> cardResimArrayList = new ArrayList<>();
         ArrayList<CardResim> cardResimArrayList2 = new ArrayList<>();
         ArrayList<CardResim> cardResimArrayList3 = new ArrayList<>();
-        CardResim f1 = new CardResim(1,"django"); //dosya ismi yeterli uzantıya gerek yok
+        CardResim f1 = new CardResim(1,"muthiskasimgulumse"); //dosya ismi yeterli uzantıya gerek yok
         CardResim f2 = new CardResim(2,"interstellar");
         CardResim f3 = new CardResim(3,"inception");
         CardResim f4 = new CardResim(4,"thehatefuleight");
