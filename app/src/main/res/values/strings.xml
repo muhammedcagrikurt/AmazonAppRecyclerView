@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">AmazonApp</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="searcViewString">Amazon.com.tr\'de Ara</string>
+    <string name="prime">✓prime</string>
+    <string name="delete">Sil</string>
+    <string name="checkBoxGift">Hediye olarak gönder. Özel mesaj ekle</string>
+    <string name="removoAll">Tüm ürünleri kaldır</string>
+    <string name="buy">Alışverişi Tamamla</string>
+    <string name="sum">Ara Toplam : 572,81 ₺</string>
 </resources>

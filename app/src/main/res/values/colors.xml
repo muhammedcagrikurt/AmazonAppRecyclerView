@@ -2,11 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
     <color name="anarenk">#97e0d9</color>
-
     <color name="button">#fed912</color>
-    <color name="arkaplan">#e0e7e4</color>
-
-
+    <color name="blue">#2196F3</color>
 </resources>

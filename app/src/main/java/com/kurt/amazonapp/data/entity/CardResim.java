@@ -4,8 +4,6 @@ public class CardResim {
     private  int id;
     private String resim;
 
-
-
     public CardResim() {
     }
 

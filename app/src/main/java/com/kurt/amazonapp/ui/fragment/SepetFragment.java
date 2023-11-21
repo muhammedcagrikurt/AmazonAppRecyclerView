@@ -18,14 +18,11 @@ import java.util.ArrayList;
 
 
 public class SepetFragment extends Fragment {
-
     private FragmentSepetBinding binding;
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         binding = FragmentSepetBinding.inflate(inflater,container,false);
-
         binding.sepetRecyclerView.setLayoutManager(new LinearLayoutManager(requireContext()));
 
         ArrayList<UrunSepet> urunSepetArrayList = new ArrayList<>();
@@ -40,7 +37,6 @@ public class SepetFragment extends Fragment {
         UrunSepetAdapter urunSepetAdapter = new UrunSepetAdapter(urunSepetArrayList,requireContext());
         binding.button3.setText("Alışverişi Tamamla ("+urunSepetArrayList.size()+" ürün)");
         binding.sepetRecyclerView.setAdapter(urunSepetAdapter);
-
 
         return binding.getRoot();
     }

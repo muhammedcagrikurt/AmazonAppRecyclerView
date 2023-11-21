@@ -25,17 +25,17 @@ public class AnasayfaFragment extends Fragment {
                              Bundle savedInstanceState) {
         binding = FragmentAnasayfaBinding.inflate(inflater, container, false);
         binding.kategoriRV.setLayoutManager(new LinearLayoutManager(requireContext()));
+
         ArrayList<Kategori> kategoriArrayList = new ArrayList<>();
         ArrayList<CardResim> cardResimArrayList = new ArrayList<>();
         ArrayList<CardResim> cardResimArrayList2 = new ArrayList<>();
         ArrayList<CardResim> cardResimArrayList3 = new ArrayList<>();
         ArrayList<CardResim> cardResimArrayList4 = new ArrayList<>();
-        CardResim c1 = new CardResim(1,"muthiskasimgulumse"); //dosya ismi yeterli uzantıya gerek yok
-        //CardResim c2 = new CardResim(1,"muthiskasimgulumse");
+
+        CardResim c1 = new CardResim(1,"muthiskasimgulumse");
         cardResimArrayList.add(c1);
-        //cardResimArrayList.add(c2);
         //
-        CardResim cr1 = new CardResim(1,"gulumsetenkasim");
+        CardResim cr1 = new CardResim(1,"kitapkategori");
         CardResim cr2 = new CardResim(2,"gulumsetenkasim");
         CardResim cr3 = new CardResim(3,"kitapkategori");
         cardResimArrayList2.add(cr1);
@@ -51,7 +51,7 @@ public class AnasayfaFragment extends Fragment {
         cardResimArrayList3.add(cresim3);
         cardResimArrayList3.add(cresim4);
         //
-        CardResim cardresim1 = new CardResim(1,"puma"); //dosya ismi yeterli uzantıya gerek yok
+        CardResim cardresim1 = new CardResim(1,"puma");
         cardResimArrayList4.add(cardresim1);
         //
         Kategori k1 = new Kategori(1,cardResimArrayList);
