@@ -10,7 +10,7 @@
         android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardBackgroundColor="#E4E4E4">
+        app:cardBackgroundColor="#f9f8fb">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
